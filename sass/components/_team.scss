@@ -1,0 +1,73 @@
+/* TEAM */
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: $secondary-white-color;
+  text-align: center;
+}
+
+.team-title {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.photo {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.name-title {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.name-text {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  margin-top: 0;
+}
+
+.team-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.team-item {
+  width: 270px;
+  height: 428px;
+  box-sizing: border-box;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: $primary-white-color;
+}
+
+.container-team {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}

@@ -1,0 +1,59 @@
+/* FEACHERS */
+.feachers {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 0;
+}
+
+.feacher-list {
+  color: $primary-text-color;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
+.feacher-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.feacher-title {
+  color: $title-text-color;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.feacher-list-item {
+  width: 270px;
+}
+
+.feacher-list-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.container-feacher {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.feacher-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,29 @@
+.logo {
+  color: $title-text-color;
+  font-family: Raleway, sans-serif;
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  margin-right: 93px;
+  align-self: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.black {
+  color: $accent-color;
+}
+
+.white {
+  color: $primary-white-color;
+}
+
+.list {
+  list-style: none;
+}

@@ -1,0 +1,81 @@
+/* WORK */
+.work {
+  background: $primary-white-color;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work-title,
+.team-title {
+  color: $title-text-color;
+}
+
+.container-work {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.work-title {
+  color: $title-text-color;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.work-picture {
+  margin: 0;
+}
+
+.work-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.work-list img {
+  display: block;
+}
+
+.work-thumb {
+  position: relative;
+}
+.work-text {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 82px;
+  padding-right: 82px;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $primary-white-color;
+  background-color: rgba(47, 48, 58, 0.8);
+  transform: translateY(-100%);
+}
