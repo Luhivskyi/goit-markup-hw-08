@@ -4,78 +4,11 @@
           box-sizing: border-box;
 }
 
-/* Стилі для index.html*/
 body {
   background-color: #ffffff;
   color: #212121;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  background-color: #ffffff;
-}
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-/* HEADER*/
-.page-header {
-  background: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border: 1px solid #ececec;
-}
-
-.adr-link {
-  color: #212121;
-  font-style: normal;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  -webkit-transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 3250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.adr-link:hover, .adr-link:focus {
-  color: #2196f3;
-}
-
-.adr-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  margin-left: auto;
-}
-
-.adr-list .item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .logo {
