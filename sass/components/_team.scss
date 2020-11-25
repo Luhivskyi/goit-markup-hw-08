@@ -11,16 +11,17 @@
   font-family: Roboto;
   font-style: 400;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
+  font-size: 28px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .photo {
   display: flex;
+  flex-direction: column;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -49,14 +50,8 @@
 }
 
 .team-item {
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
-}
-
-.team-item {
-  width: 270px;
-  height: 428px;
+  width: 450px;
+  height: 622px;
   box-sizing: border-box;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -65,9 +60,11 @@
 }
 
 .container-team {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  @media screen and(min-width: 480px) {
+    width: 480px;
+  }
 }

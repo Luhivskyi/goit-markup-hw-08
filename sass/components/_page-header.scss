@@ -20,24 +20,6 @@ body {
   background-color: $primary-white-color;
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1140px) {
-  .container {
-    width: 1140px;
-  }
-}
-
 .flex {
   display: flex;
   align-items: center;
@@ -46,7 +28,6 @@ body {
 /* HEADER*/
 
 .page-header {
-  position: relative;
   background: $primary-white-color;
   padding-top: 24px;
   padding-bottom: 25px;
