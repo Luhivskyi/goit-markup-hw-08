@@ -13,15 +13,15 @@
   &:hover,
   &:focus {
     color: $accent-color;
+
+    .black {
+      color: $accent-color;
+
+      .white {
+        color: $primary-white-color;
+      }
+    }
   }
-}
-
-.black {
-  color: $accent-color;
-}
-
-.white {
-  color: $primary-white-color;
 }
 
 .list {
