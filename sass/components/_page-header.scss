@@ -1,8 +1,14 @@
 .page-header {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 60px;
   background: $primary-white-color;
+  padding-left: 15px;
+  padding-right: 15px;
 
   .logo {
     font-family: Raleway, sans-serif;
@@ -20,10 +26,14 @@
     }
   }
   .burger-btn {
-    .mini-cross {
-      display: none;
-      border: none;
-      background: transparent;
+    border: none;
+    background: transparent;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      .mini-cross {
+        display: none;
+      }
     }
   }
 }
