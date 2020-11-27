@@ -59,7 +59,7 @@ body {
   color: #2196f3;
 }
 
-.page-header .burger-btn:hover .mini-cross, .page-header .burger-btn:focus .mini-cross {
+.page-header .burger-btn .mini-cross {
   display: none;
 }
 
