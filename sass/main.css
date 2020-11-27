@@ -19,26 +19,20 @@ body {
 
 .page-header .logo {
   font-family: Raleway, sans-serif;
-  font-family: Raleway;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  color: #212121;
   text-decoration: none;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-header .logo:hover, .page-header .logo:focus {
+.page-header .logo .blue {
   color: #2196f3;
 }
 
-.page-header .logo:hover .blue, .page-header .logo:focus .blue {
-  color: #2196f3;
-}
-
-.page-header .logo:hover .white, .page-header .logo:focus .white {
-  color: #ffffff;
+.page-header .logo .white {
+  color: #212121;
 }
 
 .site-nav .item:not(:last-child) {

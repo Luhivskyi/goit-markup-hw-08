@@ -6,25 +6,18 @@
 
   .logo {
     font-family: Raleway, sans-serif;
-    font-family: Raleway;
-    font-style: 400;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    color: $title-text-color;
     text-decoration: none;
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
+    .blue {
       color: $accent-color;
+    }
 
-      .blue {
-        color: $accent-color;
-      }
-
-      .white {
-        color: $primary-white-color;
-      }
+    .white {
+      color: $title-text-color;
     }
   }
 }
