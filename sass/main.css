@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -17,13 +17,7 @@ body {
   background: #ffffff;
 }
 
-.page-header .flex {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.page-header .flex .logo {
+.page-header .logo {
   font-family: Raleway, sans-serif;
   font-family: Raleway;
   font-style: 400;
@@ -35,18 +29,15 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-header .flex .logo:hover,
-.page-header .flex .logo:focus {
+.page-header .logo:hover, .page-header .logo:focus {
   color: #2196f3;
 }
 
-.page-header .flex .logo:hover .black,
-.page-header .flex .logo:focus .black {
+.page-header .logo:hover .blue, .page-header .logo:focus .blue {
   color: #2196f3;
 }
 
-.page-header .flex .logo:hover .white,
-.page-header .flex .logo:focus .white {
+.page-header .logo:hover .white, .page-header .logo:focus .white {
   color: #ffffff;
 }
 
@@ -68,8 +59,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav a:hover, .site-nav a:focus {
   color: #2196f3;
 }
 
@@ -165,9 +155,5 @@ body {
   top: 100%;
   left: 0;
   width: 100%;
-
-  &.is-open {
-    display: block;
-  }
-
+}
 /*# sourceMappingURL=main.css.map */
