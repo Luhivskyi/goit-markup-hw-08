@@ -15,15 +15,15 @@
     .blue {
       color: $accent-color;
     }
-
     .white {
       color: $title-text-color;
-
-      .burger-btn {
-        .mini-cross {
-          display: none;
-        }
-      }
+    }
+  }
+  .burger-btn {
+    .mini-cross {
+      display: none;
+      border: none;
+      background: transparent;
     }
   }
 }
