@@ -35,6 +35,10 @@ body {
   color: #212121;
 }
 
+.page-header .logo .white .burger-btn .mini-cross {
+  display: none;
+}
+
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }

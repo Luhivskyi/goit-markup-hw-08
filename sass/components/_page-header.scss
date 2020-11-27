@@ -18,6 +18,12 @@
 
     .white {
       color: $title-text-color;
+
+      .burger-btn {
+        .mini-cross {
+          display: none;
+        }
+      }
     }
   }
 }
