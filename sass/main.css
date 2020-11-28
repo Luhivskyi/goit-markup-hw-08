@@ -310,4 +310,75 @@ body {
 .work {
   display: none;
 }
+
+.customers {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.customers .customers-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.customers .customers-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style: none;
+}
+
+.customers .customers-list .customers-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.customers .customers-list .customers-item:hover svg,
+.customers .customers-list .customers-item:focus svg {
+  fill: #2196f3;
+}
+
+.customers .customers-list .customers-item:hover svg .customers-link,
+.customers .customers-list .customers-item:focus svg .customers-link {
+  width: 210px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.customers .customers-list .customers-item:hover svg .customers-link:hover,
+.customers .customers-list .customers-item:focus svg .customers-link:hover {
+  border: 1px solid #2196f3;
+}
 /*# sourceMappingURL=main.css.map */
