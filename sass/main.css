@@ -276,31 +276,28 @@ body {
           align-items: center;
 }
 
-.team .team-item .media-list .social:not(:last-child) {
-  margin-right: 10px;
+.team .team-item .media-list .social {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #afb1b8;
 }
 
-.team .team-item .media-list .social:not(:last-child):hover svg,
-.team .team-item .media-list .social:not(:last-child):focus svg {
+.team .team-item .media-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team .team-item .media-list:not(:last-child):hover svg,
+.team .team-item .media-list:not(:last-child):focus svg {
   fill: #ffffff;
 }
 
-.team .team-item .media-list .social:not(:last-child):hover svg:hover .social-link,
-.team .team-item .media-list .social:not(:last-child):focus svg:hover .social-link {
+.team .team-item .media-list:not(:last-child):hover svg:hover .social-link,
+.team .team-item .media-list:not(:last-child):focus svg:hover .social-link {
   background: #2196f3;
 }
 
-.team .team-item .media-list .social:not(:last-child):hover svg .media-picture,
-.team .team-item .media-list .social:not(:last-child):focus svg .media-picture {
-  fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team .team-item .media-list .social:not(:last-child):hover svg .social-link,
-.team .team-item .media-list .social:not(:last-child):focus svg .social-link {
+.team .team-item .media-list:not(:last-child):hover svg:hover .social-link .social-link,
+.team .team-item .media-list:not(:last-child):focus svg:hover .social-link .social-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,5 +312,9 @@ body {
   border-radius: 50%;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.work {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
