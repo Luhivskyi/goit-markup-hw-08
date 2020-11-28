@@ -359,7 +359,20 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
+  width: 48%;
+  width: 210px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
+}
+
+.customers .customers-list .customers-item:hover {
+  border: 1px solid #2196f3;
 }
 
 .customers .customers-list .customers-item:hover svg,
@@ -367,18 +380,21 @@ body {
   fill: #2196f3;
 }
 
-.customers .customers-list .customers-item:hover svg .customers-link,
-.customers .customers-list .customers-item:focus svg .customers-link {
-  width: 210px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 4px;
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #212121;
+  text-decoration: none;
 }
 
-.customers .customers-list .customers-item:hover svg .customers-link:hover,
-.customers .customers-list .customers-item:focus svg .customers-link:hover {
-  border: 1px solid #2196f3;
+.logo-footer .blue {
+  color: #2196f3;
+}
+
+.logo-footer .white {
+  color: #212121;
 }
 /*# sourceMappingURL=main.css.map */
