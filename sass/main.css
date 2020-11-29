@@ -10,6 +10,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+body .modal-open {
+  overflow: hidden;
+}
+
 .page-header {
   position: relative;
   display: -webkit-box;
@@ -906,11 +910,10 @@ body {
 }
 
 .form-field label.form-txt {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -936,11 +939,10 @@ body {
 }
 
 .rools {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
