@@ -1,3 +1,8 @@
+.footer {
+  width: 100%;
+  background: $secondary-black-color;
+}
+
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -10,6 +15,6 @@
     color: $accent-color;
   }
   .white {
-    color: $title-text-color;
+    color: $primary-white-color;
   }
 }
