@@ -1,6 +1,7 @@
 .footer {
   width: 100%;
   background: $secondary-black-color;
+  padding: 60px 15px 60px 15px;
 
   .footer-box {
     display: flex;
@@ -16,7 +17,7 @@
     line-height: 1.2;
     color: $title-text-color;
     text-decoration: none;
-    margin-top: 60px;
+    margin-top: 0;
     margin-bottom: 20px;
     .blue {
       color: $accent-color;
