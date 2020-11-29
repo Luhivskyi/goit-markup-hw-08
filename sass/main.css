@@ -286,7 +286,7 @@ body {
   margin-right: 10px;
 }
 
-.team .team-item .media-list .social:not(:last-child):hover svg {
+.team .team-item .media-list .social:hover svg {
   fill: #2196f3;
 }
 
@@ -409,7 +409,7 @@ body {
           justify-content: center;
 }
 
-.footer .footer-box .logo-footer {
+.footer .logo-footer {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -421,15 +421,15 @@ body {
   margin-bottom: 20px;
 }
 
-.footer .footer-box .logo-footer .blue {
+.footer .logo-footer .blue {
   color: #2196f3;
 }
 
-.footer .footer-box .logo-footer .white {
+.footer .logo-footer .white {
   color: #ffffff;
 }
 
-.footer .footer-box .logo-footer .address {
+.footer .address {
   display: inline-block;
   font-style: normal;
   list-style: none;
@@ -438,18 +438,18 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .footer-box .logo-footer .address:hover, .footer .footer-box .logo-footer .address:focus {
+.footer .address:hover, .footer .address:focus {
   color: #2196f3;
 }
 
-.footer .footer-box .logo-footer .footer-list {
+.footer .footer-list {
   list-style: none;
   font-style: normal;
   padding: 0;
   margin: 0;
 }
 
-.footer .footer-box .logo-footer .footer-link {
+.footer .footer-link {
   list-style: none;
   font-style: normal;
   margin-top: 0;
@@ -461,15 +461,47 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  margin-bottom: 8px;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .footer-box .logo-footer .footer-link:hover, .footer .footer-box .logo-footer .footer-link:focus {
+.footer .footer-link:hover, .footer .footer-link:focus {
   color: #2196f3;
 }
 
-.footer .footer-box .spysok {
+.footer .link-a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer .link-a:hover, .footer .link-a:focus {
+  color: #2196f3;
+}
+
+.footer .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer .link:hover, .footer .link:focus {
+  color: #2196f3;
+}
+
+.footer .spysok {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,7 +518,7 @@ body {
   width: 100%;
 }
 
-.footer .footer-box .footer-title {
+.footer .footer-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -495,10 +527,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
-.footer .footer-box .footer-media-list {
+.footer .footer-media-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -511,5 +544,53 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer .footer-social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer .footer-social:hover svg,
+.footer .footer-social:focus svg {
+  fill: #ffffff;
+}
+
+.footer .footer-social:hover .footer-social-link {
+  background: #2196f3;
+}
+
+.footer .footer-social:not(:last-child) {
+  margin-right: 10px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .footer-media-picture {
+  fill: #ffffff;
+}
+
+.footer .footer-form-title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

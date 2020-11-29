@@ -72,10 +72,9 @@
 
         &:not(:last-child) {
           margin-right: 10px;
-
-          &:hover svg {
-            fill: $accent-color;
-          }
+        }
+        &:hover svg {
+          fill: $accent-color;
         }
 
         .media-picture {
