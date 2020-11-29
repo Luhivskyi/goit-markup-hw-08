@@ -73,9 +73,12 @@
         &:not(:last-child) {
           margin-right: 10px;
 
-          &:hover {
+          &:hover svg {
             fill: $accent-color;
           }
+        }
+        .media-picture {
+          fill: $primary-grey-color;
         }
 
         .social-link {
