@@ -1026,9 +1026,11 @@ body .modal-open {
 }
 
 @media (min-width: 768px) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  .menu-container.is-open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .site-nav .item:not(:last-child) {
