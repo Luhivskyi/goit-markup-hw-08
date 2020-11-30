@@ -57,6 +57,13 @@ body .modal-open {
 .page-header .burger-btn {
   border: none;
   background: transparent;
+  /*.burger-btn.is-open .mini-cross {
+      display: block;
+    }
+
+    .burger-btn.is-open .mini-menu {
+      display: none;
+    }*/
 }
 
 .page-header .burger-btn:hover, .page-header .burger-btn:focus {
@@ -73,10 +80,6 @@ body .modal-open {
 
 .page-header .burger-btn .burger-btn.is-open .mini-cross {
   display: block;
-}
-
-.page-header .burger-btn .burger-btn.is-open .mini-menu {
-  display: none;
 }
 
 .hero {
