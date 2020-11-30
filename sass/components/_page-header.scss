@@ -27,27 +27,31 @@
   }
 
   .burger-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
     background: transparent;
     &:hover,
     &:focus {
       fill: $accent-color;
     }
+
     .mini-cross {
       display: none;
     }
+
     &.is-open {
       .mini-cross {
         display: flex;
         align-items: center;
         justify-content: center;
       }
+
       .mini-menu {
         display: none;
       }
+    }
+
+    @iclude tablet {
+      display: none;
     }
   }
 }

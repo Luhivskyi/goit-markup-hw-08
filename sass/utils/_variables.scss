@@ -6,3 +6,16 @@ $primary-white-color: #ffffff;
 $secondary-white-color: #f5f4fa;
 $secondary-grey-color: #ececec;
 $primary-grey-color: #afb1b8;
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
