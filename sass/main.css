@@ -1010,7 +1010,7 @@ body .modal-open {
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 .site-nav .item:not(:last-child) {
