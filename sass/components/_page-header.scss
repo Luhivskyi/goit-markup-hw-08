@@ -33,29 +33,28 @@
     &:focus {
       fill: $accent-color;
     }
+  }
+  .mini-cross {
+    display: none;
+  }
 
-    .mini-cross {
-      display: none;
-    }
+  .burger-btn .mini-cross {
+    display: none;
+  }
 
-    .burger-btn .mini-cross {
-      display: none;
-    }
-
-    .burger-btn {
-      &.is-open {
-        .mini-cross {
-          display: block;
-        }
+  .burger-btn {
+    &.is-open {
+      .mini-cross {
+        display: block;
       }
     }
+  }
 
-    /*.burger-btn.is-open .mini-cross {
+  /*.burger-btn.is-open .mini-cross {
       display: block;
     }
 
     .burger-btn.is-open .mini-menu {
       display: none;
     }*/
-  }
 }

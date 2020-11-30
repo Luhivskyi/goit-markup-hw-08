@@ -34,6 +34,13 @@ body .modal-open {
   background: #ffffff;
   padding-left: 15px;
   padding-right: 15px;
+  /*.burger-btn.is-open .mini-cross {
+      display: block;
+    }
+
+    .burger-btn.is-open .mini-menu {
+      display: none;
+    }*/
 }
 
 .page-header .logo {
@@ -57,28 +64,21 @@ body .modal-open {
 .page-header .burger-btn {
   border: none;
   background: transparent;
-  /*.burger-btn.is-open .mini-cross {
-      display: block;
-    }
-
-    .burger-btn.is-open .mini-menu {
-      display: none;
-    }*/
 }
 
 .page-header .burger-btn:hover, .page-header .burger-btn:focus {
   fill: #2196f3;
 }
 
+.page-header .mini-cross {
+  display: none;
+}
+
 .page-header .burger-btn .mini-cross {
   display: none;
 }
 
-.page-header .burger-btn .burger-btn .mini-cross {
-  display: none;
-}
-
-.page-header .burger-btn .burger-btn.is-open .mini-cross {
+.page-header .burger-btn.is-open .mini-cross {
   display: block;
 }
 
