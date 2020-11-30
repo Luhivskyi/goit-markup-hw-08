@@ -1037,8 +1037,8 @@ body .modal-open {
 
 .site-nav list {
   display: block;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-decoration: none;
 }
