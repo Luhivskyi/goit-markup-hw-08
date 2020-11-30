@@ -77,7 +77,15 @@ body .modal-open {
 }
 
 .page-header .burger-btn.is-open .mini-cross {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .page-header .burger-btn.is-open .mini-menu {

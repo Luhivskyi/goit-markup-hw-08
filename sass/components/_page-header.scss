@@ -41,7 +41,9 @@
     }
     &.is-open {
       .mini-cross {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .mini-menu {
         display: none;
