@@ -15,11 +15,29 @@ body .modal-open {
 }
 
 .container {
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
   background-color: #ffffff;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1600px;
+  }
 }
 
 .container .page-header {
@@ -200,22 +218,39 @@ body .modal-open {
 }
 
 .feachers .feacher-list .feacher-list-item .container-feacher {
-  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .feachers .feacher-list .feacher-list-item .container-feacher {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feachers .feacher-list .feacher-list-item .container-feacher {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .feachers .feacher-list .feacher-list-item .container-feacher {
+    width: 1600px;
+  }
 }
 
 @media (min-width: 768px) {
-  .feachers .feacher-list .feacher-list-item .container-feacher {
+  .feachers .feacher-list .feacher-list-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
 
-.feachers .feacher-list .feacher-list-item .feacher-title {
+.feachers .feacher-list .feacher-title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -228,7 +263,7 @@ body .modal-open {
   text-align: center;
 }
 
-.feachers .feacher-list .feacher-list-item .feacher-text {
+.feachers .feacher-list .feacher-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -238,7 +273,7 @@ body .modal-open {
   color: #757575;
 }
 
-.feachers .feacher-list .feacher-list-item .vectors {
+.feachers .feacher-list .vectors {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,9 +291,34 @@ body .modal-open {
 }
 
 @media (min-width: 768px) {
-  .feachers .feacher-list .feacher-list-item .vectors {
+  .feachers .feacher-list .vectors {
     width: 354px;
     height: 120px;
+  }
+}
+
+.container-team {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container-team {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-team {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container-team {
+    width: 1600px;
   }
 }
 
@@ -465,6 +525,37 @@ body .modal-open {
 .customers .customers-list .customers-item:hover svg,
 .customers .customers-list .customers-item:focus svg {
   fill: #2196f3;
+}
+
+.container-footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container-footer {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-footer {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container-footer {
+    width: 1600px;
+  }
+}
+
+@media (min-width: 768px) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer {
