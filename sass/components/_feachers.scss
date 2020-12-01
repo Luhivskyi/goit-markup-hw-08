@@ -21,9 +21,17 @@
 
       @include tablet {
         display: flex;
-        &:not(:last-child) {
+        &:nth-child(n + 1) {
           margin-right: 30px;
         }
+      }
+
+      .container-feacher {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
       }
 
       .feacher-title {
