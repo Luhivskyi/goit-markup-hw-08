@@ -39,11 +39,7 @@ body .modal-open {
   }
 }
 
-.container {
-  background-color: #ffffff;
-}
-
-.container .page-header {
+.page-header {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,7 +61,7 @@ body .modal-open {
   padding-right: 15px;
 }
 
-.container .page-header .logo {
+.page-header .logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -75,28 +71,28 @@ body .modal-open {
   text-decoration: none;
 }
 
-.container .page-header .logo .blue {
+.page-header .logo .blue {
   color: #2196f3;
 }
 
-.container .page-header .logo .white {
+.page-header .logo .white {
   color: #212121;
 }
 
-.container .page-header .burger-btn {
+.page-header .burger-btn {
   border: none;
   background: transparent;
 }
 
-.container .page-header .burger-btn:hover, .container .page-header .burger-btn:focus {
+.page-header .burger-btn:hover, .page-header .burger-btn:focus {
   fill: #2196f3;
 }
 
-.container .page-header .burger-btn .mini-cross {
+.page-header .burger-btn .mini-cross {
   display: none;
 }
 
-.container .page-header .burger-btn.is-open .mini-cross {
+.page-header .burger-btn.is-open .mini-cross {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,12 +104,12 @@ body .modal-open {
           justify-content: center;
 }
 
-.container .page-header .burger-btn.is-open .mini-menu {
+.page-header .burger-btn.is-open .mini-menu {
   display: none;
 }
 
 @media (min-width: 768px) {
-  .container .page-header .burger-btn {
+  .page-header .burger-btn {
     display: none;
   }
 }
