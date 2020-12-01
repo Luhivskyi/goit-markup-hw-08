@@ -1,57 +1,66 @@
-.page-header {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 60px;
-  background: $primary-white-color;
-  padding-left: 15px;
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-right: 15px;
+  padding-left: 15px;
+  background-color: $primary-white-color;
 
-  .logo {
-    font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: $title-text-color;
-    text-decoration: none;
-    .blue {
-      color: $accent-color;
-    }
-    .white {
+  .page-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background: $primary-white-color;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .logo {
+      font-family: Raleway, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.2;
       color: $title-text-color;
-    }
-  }
-
-  .burger-btn {
-    border: none;
-    background: transparent;
-    &:hover,
-    &:focus {
-      fill: $accent-color;
+      text-decoration: none;
+      .blue {
+        color: $accent-color;
+      }
+      .white {
+        color: $title-text-color;
+      }
     }
 
-    .mini-cross {
-      display: none;
-    }
-
-    &.is-open {
-      .mini-cross {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .burger-btn {
+      border: none;
+      background: transparent;
+      &:hover,
+      &:focus {
+        fill: $accent-color;
       }
 
-      .mini-menu {
+      .mini-cross {
         display: none;
       }
-    }
 
-    @include tablet {
-      display: none;
+      &.is-open {
+        .mini-cross {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .mini-menu {
+          display: none;
+        }
+      }
+
+      @include tablet {
+        display: none;
+      }
     }
   }
 }

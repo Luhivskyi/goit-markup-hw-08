@@ -14,7 +14,16 @@ body .modal-open {
   overflow: hidden;
 }
 
-.page-header {
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #ffffff;
+}
+
+.container .page-header {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,7 +45,7 @@ body .modal-open {
   padding-right: 15px;
 }
 
-.page-header .logo {
+.container .page-header .logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -46,28 +55,28 @@ body .modal-open {
   text-decoration: none;
 }
 
-.page-header .logo .blue {
+.container .page-header .logo .blue {
   color: #2196f3;
 }
 
-.page-header .logo .white {
+.container .page-header .logo .white {
   color: #212121;
 }
 
-.page-header .burger-btn {
+.container .page-header .burger-btn {
   border: none;
   background: transparent;
 }
 
-.page-header .burger-btn:hover, .page-header .burger-btn:focus {
+.container .page-header .burger-btn:hover, .container .page-header .burger-btn:focus {
   fill: #2196f3;
 }
 
-.page-header .burger-btn .mini-cross {
+.container .page-header .burger-btn .mini-cross {
   display: none;
 }
 
-.page-header .burger-btn.is-open .mini-cross {
+.container .page-header .burger-btn.is-open .mini-cross {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,12 +88,12 @@ body .modal-open {
           justify-content: center;
 }
 
-.page-header .burger-btn.is-open .mini-menu {
+.container .page-header .burger-btn.is-open .mini-menu {
   display: none;
 }
 
 @media (min-width: 768px) {
-  .page-header .burger-btn {
+  .container .page-header .burger-btn {
     display: none;
   }
 }
@@ -182,6 +191,9 @@ body .modal-open {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .feachers .feacher-list .feacher-list-item:nth-child(n + 1) {
     margin-right: 30px;
@@ -194,6 +206,14 @@ body .modal-open {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .feachers .feacher-list .feacher-list-item .container-feacher {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .feachers .feacher-list .feacher-list-item .feacher-title {
