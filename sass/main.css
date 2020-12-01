@@ -146,6 +146,18 @@ body .modal-open {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  .feachers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .feachers .feacher-list {
   padding-left: 15px;
   padding-right: 15px;
@@ -163,6 +175,17 @@ body .modal-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 768px) {
+  .feachers .feacher-list .feacher-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .feachers .feacher-list .feacher-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .feachers .feacher-list .feacher-list-item .feacher-title {
@@ -203,6 +226,13 @@ body .modal-open {
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .feachers .feacher-list .feacher-list-item .vectors {
+    width: 354px;
+    height: 120px;
+  }
 }
 
 .team {

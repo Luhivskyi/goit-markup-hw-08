@@ -4,6 +4,11 @@
   align-items: center;
   width: 100%;
 
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+  }
+
   .feacher-list {
     padding-left: 15px;
     padding-right: 15px;
@@ -13,6 +18,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      @include tablet {
+        display: flex;
+        &:not(:last-child) {
+          margin-right: 30px;
+        }
+      }
 
       .feacher-title {
         font-style: normal;
@@ -46,6 +58,11 @@
         margin-bottom: 30px;
         background: $secondary-white-color;
         border-radius: 4px;
+
+        @include tablet {
+          width: 354px;
+          height: 120px;
+        }
       }
     }
   }
