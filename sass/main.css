@@ -1064,6 +1064,14 @@ body .modal-open {
   }
 }
 
+@media (min-width: 768px) {
+  .menu-container .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .menu-container.is-open {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1098,14 +1106,6 @@ body .modal-open {
   .site-nav .item:not(:last-child) {
     margin-bottom: 0;
     margin-right: 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .main-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 

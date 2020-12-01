@@ -5,6 +5,12 @@
     display: flex;
   }
 
+  .main-nav {
+    @include tablet {
+      display: flex;
+    }
+  }
+
   &.is-open {
     display: flex;
     width: 100%;
@@ -31,11 +37,6 @@
       margin-bottom: 0;
       margin-right: 50px;
     }
-  }
-}
-.main-nav {
-  @include tablet {
-    display: flex;
   }
 }
 
