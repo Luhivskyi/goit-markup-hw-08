@@ -25,11 +25,20 @@
 
 .site-nav .item {
   &:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: bottom 40px;
+
+    @include tablet {
+      margin-bottom: 0;
+      margin-right: 50px;
+    }
   }
 }
 
 .site-nav a {
+  @include tablet {
+    font-size: 14px;
+    line-height: 1.1;
+  }
   position: relative;
   display: block;
   font-style: normal;
@@ -61,6 +70,8 @@
 
   @include tablet {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -82,15 +93,29 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .envelope-picture {
+  @include tablet {
+    margin-right: 8px;
+  }
+
   fill: $title-text-color;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone-picture {
+  @include tablet {
+    margin-right: 8px;
+  }
+
   fill: $title-text-color;
   margin-right: 10px;
 
@@ -106,6 +131,10 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include tablet {
+    font-size: 12px;
+    line-height: 1.1;
+  }
 }
 
 .envelope-link {
@@ -118,6 +147,13 @@
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
+
+  @include tablet {
+    font-size: 12px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+
   &:hover {
     color: $accent-color;
   }
