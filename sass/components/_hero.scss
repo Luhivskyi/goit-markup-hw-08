@@ -6,26 +6,30 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/Header img.jpg);
+    url(../images/Headerimg.jpg);
   background-repeat: no-repeat;
-  .hero-title {
-    color: $primary-white-color;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 30px;
+  @include tablet {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/Hero_tublet.jpg);
   }
-  .hero-button {
-    color: $primary-white-color;
-    background-color: $accent-color;
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-color: $accent-color;
-  }
-
+}
+.hero-title {
+  color: $primary-white-color;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.hero-button {
+  color: $primary-white-color;
+  background-color: $accent-color;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: $accent-color;
+}

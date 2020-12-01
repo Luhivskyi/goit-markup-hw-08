@@ -132,9 +132,17 @@ body .modal-open {
           justify-content: center;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Headerimg.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Headerimg.jpg);
+  background-repeat: no-repeat;
 }
 
-.hero .hero-title {
+@media (min-width: 768px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Hero_tublet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero_tublet.jpg);
+  }
+}
+
+.hero-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 26px;
@@ -146,7 +154,7 @@ body .modal-open {
   margin-bottom: 30px;
 }
 
-.hero .hero-button {
+.hero-button {
   color: #ffffff;
   background-color: #2196f3;
   width: 200px;
