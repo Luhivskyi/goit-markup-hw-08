@@ -3,72 +3,63 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
 
+.feacher-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style: none;
   @include tablet {
     display: flex;
     flex-direction: row;
   }
 
-  .feacher-list {
-    padding-left: 15px;
-    padding-right: 15px;
-    list-style: none;
+  .feacher-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    .feacher-list-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      @include tablet {
-        display: flex;
-        justify-content: space-between;
-        &:nth-child(n + 1) {
-          margin-right: 30px;
-        }
-      }
-
-      @include tablet {
-        display: flex;
-      }
+    @include tablet {
+      width: 50%;
     }
+  }
 
-    .feacher-title {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 16px;
-      text-align: center;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: $title-text-color;
-      margin: 0;
-      text-align: center;
-    }
+  .feacher-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-text-color;
+    margin: 0;
+    text-align: center;
+  }
 
-    .feacher-text {
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 1.7;
-      letter-spacing: 0.03em;
-      color: $primary-text-color;
-    }
+  .feacher-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+  }
 
-    .vectors {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 450px;
+  .vectors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+    background: $secondary-white-color;
+    border-radius: 4px;
+
+    @include tablet {
+      width: 354px;
       height: 120px;
-      margin-bottom: 30px;
-      background: $secondary-white-color;
-      border-radius: 4px;
-
-      @include tablet {
-        width: 354px;
-        height: 120px;
-      }
     }
   }
 }

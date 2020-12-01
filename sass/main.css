@@ -130,6 +130,8 @@ body .modal-open {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-size: cover;
+  background-position: center;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Headerimg.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Headerimg.jpg);
   background-repeat: no-repeat;
@@ -179,8 +181,14 @@ body .modal-open {
   width: 100%;
 }
 
+.feacher-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style: none;
+}
+
 @media (min-width: 768px) {
-  .feachers {
+  .feacher-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -191,13 +199,7 @@ body .modal-open {
   }
 }
 
-.feachers .feacher-list {
-  padding-left: 15px;
-  padding-right: 15px;
-  list-style: none;
-}
-
-.feachers .feacher-list .feacher-list-item {
+.feacher-list .feacher-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,28 +213,12 @@ body .modal-open {
 }
 
 @media (min-width: 768px) {
-  .feachers .feacher-list .feacher-list-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .feachers .feacher-list .feacher-list-item:nth-child(n + 1) {
-    margin-right: 30px;
+  .feacher-list .feacher-list-item {
+    width: 50%;
   }
 }
 
-@media (min-width: 768px) {
-  .feachers .feacher-list .feacher-list-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-.feachers .feacher-list .feacher-title {
+.feacher-list .feacher-title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -245,7 +231,7 @@ body .modal-open {
   text-align: center;
 }
 
-.feachers .feacher-list .feacher-text {
+.feacher-list .feacher-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -255,7 +241,7 @@ body .modal-open {
   color: #757575;
 }
 
-.feachers .feacher-list .vectors {
+.feacher-list .vectors {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -273,7 +259,7 @@ body .modal-open {
 }
 
 @media (min-width: 768px) {
-  .feachers .feacher-list .vectors {
+  .feacher-list .vectors {
     width: 354px;
     height: 120px;
   }

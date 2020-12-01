@@ -5,9 +5,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Headerimg.jpg);
   background-repeat: no-repeat;
+
   @include tablet {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/Hero_tublet.jpg);
