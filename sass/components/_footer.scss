@@ -1,17 +1,27 @@
-@include tablet {
-  display: flex;
-}
-
 .footer {
   width: 100%;
   background: $secondary-black-color;
   padding: 60px 15px 60px 15px;
+
+  .kolonky {
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 
   .footer-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include tablet {
+      width: 50%;
+    }
   }
 
   .logo-footer {
@@ -109,6 +119,10 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
+    @include tablet {
+      width: 50%;
+    }
   }
 
   .footer-title {
