@@ -19,7 +19,6 @@ body .modal-open {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff;
 }
 
 @media screen and (min-width: 480px) {
@@ -34,10 +33,14 @@ body .modal-open {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1600px;
+    width: 1200px;
   }
+}
+
+.container {
+  background-color: #ffffff;
 }
 
 .container .page-header {
@@ -217,31 +220,6 @@ body .modal-open {
   }
 }
 
-.feachers .feacher-list .feacher-list-item .container-feacher {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 480px) {
-  .feachers .feacher-list .feacher-list-item .container-feacher {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .feachers .feacher-list .feacher-list-item .container-feacher {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .feachers .feacher-list .feacher-list-item .container-feacher {
-    width: 1600px;
-  }
-}
-
 @media (min-width: 768px) {
   .feachers .feacher-list .feacher-list-item {
     display: -webkit-box;
@@ -294,31 +272,6 @@ body .modal-open {
   .feachers .feacher-list .vectors {
     width: 354px;
     height: 120px;
-  }
-}
-
-.container-team {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 480px) {
-  .container-team {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container-team {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .container-team {
-    width: 1600px;
   }
 }
 
@@ -525,31 +478,6 @@ body .modal-open {
 .customers .customers-list .customers-item:hover svg,
 .customers .customers-list .customers-item:focus svg {
   fill: #2196f3;
-}
-
-.container-footer {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 480px) {
-  .container-footer {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container-footer {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .container-footer {
-    width: 1600px;
-  }
 }
 
 @media (min-width: 768px) {
