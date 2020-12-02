@@ -50,6 +50,9 @@
     @include desktop {
       width: 270px;
       height: 428px;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
     }
 
     &:not(:last-child) {
@@ -64,6 +67,11 @@
   @include tablet {
     width: 354px;
     height: 374px;
+  }
+
+  @include desktop {
+    width: 270px;
+    height: 260px;
   }
 }
 

@@ -42,6 +42,11 @@
       width: 32%;
     }
 
+    @include desktop {
+      width: 170px;
+      height: 90px;
+    }
+
     &:hover {
       border: 1px solid $accent-color;
     }
