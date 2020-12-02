@@ -327,6 +327,9 @@ body .modal-open {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
@@ -670,6 +673,7 @@ body .modal-open {
 @media (min-width: 768px) {
   .footer .spysok {
     width: 50%;
+    margin-bottom: 65px;
   }
 }
 
