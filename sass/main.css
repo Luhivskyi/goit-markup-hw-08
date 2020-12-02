@@ -502,6 +502,12 @@ body .modal-open {
   fill: #afb1b8;
 }
 
+@media (min-width: 768px) {
+  .customers .customers-item {
+    width: 32%;
+  }
+}
+
 .customers .customers-item:hover {
   border: 1px solid #2196f3;
 }
