@@ -8,12 +8,12 @@
 .feacher-list {
   list-style: none;
   padding: 0;
-
+  justify-content: space-between;
   @include tablet {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .feacher-list-item {
@@ -22,7 +22,10 @@
     align-items: center;
 
     @include tablet {
-      width: 50%;
+      width: 354px;
+      &:nth-child(2n + 1) {
+        margin-right: 30px;
+      }
     }
   }
 
@@ -53,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
+    width: 100%;
     height: 120px;
     margin-bottom: 30px;
     background: $secondary-white-color;

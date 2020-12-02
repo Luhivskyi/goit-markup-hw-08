@@ -184,6 +184,9 @@ body .modal-open {
 .feacher-list {
   list-style: none;
   padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (min-width: 768px) {
@@ -197,9 +200,9 @@ body .modal-open {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -218,7 +221,10 @@ body .modal-open {
 
 @media (min-width: 768px) {
   .feacher-list .feacher-list-item {
-    width: 50%;
+    width: 354px;
+  }
+  .feacher-list .feacher-list-item:nth-child(2n + 1) {
+    margin-right: 30px;
   }
 }
 
@@ -255,7 +261,7 @@ body .modal-open {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 450px;
+  width: 100%;
   height: 120px;
   margin-bottom: 30px;
   background: #f5f4fa;
