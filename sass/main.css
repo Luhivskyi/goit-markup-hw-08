@@ -184,9 +184,6 @@ body .modal-open {
 .feacher-list {
   list-style: none;
   padding: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 @media (min-width: 768px) {
@@ -478,12 +475,10 @@ body .modal-open {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
   list-style: none;
 }
 
-.customers .customers-list .customers-item {
+.customers .customers-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -494,7 +489,6 @@ body .modal-open {
       -ms-flex-pack: center;
           justify-content: center;
   width: 48%;
-  width: 210px;
   height: 90px;
   border: 1px solid #afb1b8;
   -webkit-box-sizing: border-box;
@@ -505,16 +499,16 @@ body .modal-open {
   margin-bottom: 30px;
 }
 
-.customers .customers-list .customers-item .picture {
+.customers .customers-item .picture {
   fill: #afb1b8;
 }
 
-.customers .customers-list .customers-item:hover {
+.customers .customers-item:hover {
   border: 1px solid #2196f3;
 }
 
-.customers .customers-list .customers-item:hover svg,
-.customers .customers-list .customers-item:focus svg {
+.customers .customers-item:hover svg,
+.customers .customers-item:focus svg {
   fill: #2196f3;
 }
 
