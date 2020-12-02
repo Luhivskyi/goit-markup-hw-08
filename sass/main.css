@@ -395,6 +395,13 @@ body .modal-open {
   }
 }
 
+@media (min-width: 1024px) {
+  .team .team-item {
+    width: 270px;
+    height: 428px;
+  }
+}
+
 .team .team-item:not(:last-child) {
   margin-bottom: 30px;
 }

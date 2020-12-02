@@ -46,6 +46,12 @@
       width: 354px;
       height: 536px;
     }
+
+    @include desktop {
+      width: 270px;
+      height: 428px;
+    }
+
     &:not(:last-child) {
       margin-bottom: 30px;
     }
