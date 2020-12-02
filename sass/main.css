@@ -650,7 +650,7 @@ body .modal-open {
   }
 }
 
-.footer .footer-box .logo-footer {
+.footer .logo-footer {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -662,15 +662,15 @@ body .modal-open {
   margin-bottom: 20px;
 }
 
-.footer .footer-box .logo-footer .blue {
+.footer .logo-footer .blue {
   color: #2196f3;
 }
 
-.footer .footer-box .logo-footer .white {
+.footer .logo-footer .white {
   color: #ffffff;
 }
 
-.footer .footer-box .address {
+.footer .address {
   display: inline-block;
   font-style: normal;
   list-style: none;
@@ -679,11 +679,11 @@ body .modal-open {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .footer-box .address:hover, .footer .footer-box .address:focus {
+.footer .address:hover, .footer .address:focus {
   color: #2196f3;
 }
 
-.footer .footer-box .footer-list {
+.footer .footer-list {
   list-style: none;
   font-style: normal;
   text-align: center;
@@ -691,7 +691,7 @@ body .modal-open {
   margin: 0;
 }
 
-.footer .footer-box .footer-link {
+.footer .footer-link {
   list-style: none;
   font-style: normal;
   margin-top: 0;
@@ -708,11 +708,11 @@ body .modal-open {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .footer-box .footer-link:hover, .footer .footer-box .footer-link:focus {
+.footer .footer-link:hover, .footer .footer-link:focus {
   color: #2196f3;
 }
 
-.footer .footer-box .link-a {
+.footer .link-a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -724,11 +724,11 @@ body .modal-open {
   margin-bottom: 8px;
 }
 
-.footer .footer-box .link-a:hover, .footer .footer-box .link-a:focus {
+.footer .link-a:hover, .footer .link-a:focus {
   color: #2196f3;
 }
 
-.footer .footer-box .link {
+.footer .link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -739,11 +739,11 @@ body .modal-open {
   text-decoration: none;
 }
 
-.footer .footer-box .link:hover, .footer .footer-box .link:focus {
+.footer .link:hover, .footer .link:focus {
   color: #2196f3;
 }
 
-.footer .footer-box .spysok {
+.footer .spysok {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -761,19 +761,19 @@ body .modal-open {
 }
 
 @media (min-width: 768px) {
-  .footer .footer-box .spysok {
+  .footer .spysok {
     width: 50%;
     margin-bottom: 65px;
   }
 }
 
 @media (min-width: 1024px) {
-  .footer .footer-box .spysok {
+  .footer .spysok {
     width: 32%;
   }
 }
 
-.footer .footer-box .footer-title {
+.footer .footer-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -786,7 +786,7 @@ body .modal-open {
   margin-bottom: 20px;
 }
 
-.footer .footer-box .footer-media-list {
+.footer .footer-media-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -801,7 +801,7 @@ body .modal-open {
           align-items: center;
 }
 
-.footer .footer-box .footer-social-link {
+.footer .footer-social-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -817,26 +817,26 @@ body .modal-open {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer .footer-box .footer-social:hover svg,
-.footer .footer-box .footer-social:focus svg {
+.footer .footer-social:hover svg,
+.footer .footer-social:focus svg {
   fill: #ffffff;
 }
 
-.footer .footer-box .footer-social:hover .footer-social-link {
+.footer .footer-social:hover .footer-social-link {
   background: #2196f3;
 }
 
-.footer .footer-box .footer-social:not(:last-child) {
+.footer .footer-social:not(:last-child) {
   margin-right: 10px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .footer-box .footer-media-picture {
+.footer .footer-media-picture {
   fill: #ffffff;
 }
 
-.footer .footer-box .footer-form-title {
+.footer .footer-form-title {
   margin-top: 60px;
   margin-bottom: 20px;
   text-align: center;
@@ -850,7 +850,7 @@ body .modal-open {
   color: #ffffff;
 }
 
-.footer .footer-box .form {
+.footer .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -866,7 +866,7 @@ body .modal-open {
           justify-content: center;
 }
 
-.footer .footer-box .footer-f input {
+.footer .footer-f input {
   width: 450px;
   height: 50px;
   margin-bottom: 20px;
@@ -880,23 +880,23 @@ body .modal-open {
   background: #2f303a;
 }
 
-.footer .footer-box .footer-f input::-webkit-input-placeholder {
+.footer .footer-f input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .footer-box .footer-f input:-ms-input-placeholder {
+.footer .footer-f input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .footer-box .footer-f input::-ms-input-placeholder {
+.footer .footer-f input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .footer-box .footer-f input::placeholder {
+.footer .footer-f input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .footer-box .footer-btn {
+.footer .footer-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -919,7 +919,7 @@ body .modal-open {
   border: none;
 }
 
-.footer .footer-box .footer-icon {
+.footer .footer-icon {
   margin-left: 13px;
   width: 24px;
   height: 24px;
