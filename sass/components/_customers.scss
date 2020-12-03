@@ -22,6 +22,9 @@
     justify-content: space-between;
     list-style: none;
     padding: 0;
+    @include desktop {
+      justify-content: center;
+    }
   }
 
   .customers-item {
@@ -45,6 +48,9 @@
     @include desktop {
       width: 170px;
       height: 90px;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
     }
 
     &:hover {

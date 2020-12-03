@@ -658,6 +658,14 @@ body .modal-open {
   padding: 0;
 }
 
+@media (min-width: 1200px) {
+  .customers .customers-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .customers .customers-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -693,6 +701,9 @@ body .modal-open {
   .customers .customers-item {
     width: 170px;
     height: 90px;
+  }
+  .customers .customers-item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
