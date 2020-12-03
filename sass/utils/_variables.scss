@@ -8,7 +8,7 @@ $secondary-grey-color: #ececec;
 $primary-grey-color: #afb1b8;
 
 $tablet-width: 768px;
-$desktop-width: 1024px;
+$desktop-width: 1200px;
 
 @mixin tablet {
   @media (min-width: #{$tablet-width}) {

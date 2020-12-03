@@ -181,7 +181,7 @@ body .modal-open {
   width: 100%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .feachers {
     margin-top: 0;
     margin-bottom: 0;
@@ -212,7 +212,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .feacher-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -244,7 +244,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 768px) and (min-width: 1024px) {
+@media (min-width: 768px) and (min-width: 1200px) {
   .feacher-list-item {
     width: 270px;
   }
@@ -300,7 +300,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 768px) and (min-width: 1024px) {
+@media (min-width: 768px) and (min-width: 1200px) {
   .vectors {
     width: 270px;
     height: 120px;
@@ -395,7 +395,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .team .team-item {
     width: 270px;
     height: 428px;
@@ -420,7 +420,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .team .people {
     width: 270px;
     height: 260px;
@@ -513,7 +513,7 @@ body .modal-open {
   display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .work {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -675,7 +675,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .customers .customers-item {
     width: 170px;
     height: 90px;
@@ -717,7 +717,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .footer .kolonky {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -750,7 +750,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .footer .footer-box {
     width: 32%;
   }
@@ -873,7 +873,7 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .footer .spysok {
     width: 32%;
   }
@@ -1344,6 +1344,15 @@ body .modal-open {
   }
 }
 
+@media (min-width: 1200px) {
+  .menu-container {
+    width: 80%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 @media (min-width: 768px) {
   .menu-container .main-nav {
     display: -webkit-box;
@@ -1489,6 +1498,16 @@ body .modal-open {
   }
 }
 
+@media (min-width: 1200px) {
+  .contacts {
+    margin-right: 200px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .envelope-picture {
   fill: #212121;
   margin-right: 10px;
@@ -1527,13 +1546,6 @@ body .modal-open {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (min-width: 768px) {
-  .phone-link {
-    font-size: 12px;
-    line-height: 1.1;
-  }
-}
-
 .envelope-link {
   text-decoration: none;
   color: #757575;
@@ -1555,23 +1567,37 @@ body .modal-open {
   }
 }
 
+@media (min-width: 768px) {
+  .envelope-link {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .envelope-link {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+}
+
 .envelope-link:hover {
   color: #2196f3;
 }
 
-.phone-link:hover {
+.envelope-link .phone-link:hover {
   color: #2196f3;
 }
 
-.envelope-link:hover svg {
+.envelope-link .envelope-link:hover svg {
   fill: #2196f3;
 }
 
-.phone-link:hover svg {
+.envelope-link .phone-link:hover svg {
   fill: #2196f3;
 }
 
-.envelope-link:hover.phone-link:hover svg {
+.envelope-link .envelope-link:hover.phone-link:hover svg {
   fill: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
