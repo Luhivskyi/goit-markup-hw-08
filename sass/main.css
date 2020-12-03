@@ -513,6 +513,100 @@ body .modal-open {
   display: none;
 }
 
+@media (min-width: 1024px) {
+  .work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.work .work-title,
+.work .team-title {
+  color: #212121;
+}
+
+.work .container-work {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.work .work-title {
+  color: #212121;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.work .work-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.work .work-picture {
+  margin: 0;
+}
+
+.work .work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work .work-list img {
+  display: block;
+}
+
+.work .work-thumb {
+  position: relative;
+}
+
+.work .work-text {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 82px;
+  padding-right: 82px;
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
 .customers {
   width: 100%;
   background-color: #ffffff;
