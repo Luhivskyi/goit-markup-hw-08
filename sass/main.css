@@ -747,6 +747,7 @@ body .modal-open {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-width: 1200px;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -778,6 +779,9 @@ body .modal-open {
 @media (min-width: 1200px) {
   .footer .footer-box {
     width: 32%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
@@ -820,6 +824,12 @@ body .modal-open {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .footer .footer-list li {
+    text-align: left;
+  }
 }
 
 .footer .footer-link {
