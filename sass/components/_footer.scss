@@ -216,8 +216,11 @@
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: $primary-white-color;
+
+    @include desktop {
+      text-align: left;
+    }
   }
 
   .form {
@@ -226,11 +229,13 @@
     align-items: center;
     justify-content: center;
   }
+
   .footer-f {
     @include desktop {
       display: flex;
     }
   }
+
   .footer-f input {
     width: 450px;
     height: 50px;
@@ -242,6 +247,9 @@
     border-radius: 4px;
     background: $secondary-black-color;
 
+    @include desktop {
+      margin-bottom: 0;
+    }
     &::placeholder {
       color: rgba(255, 255, 255, 0.6);
     }

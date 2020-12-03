@@ -15,6 +15,7 @@
       display: flex;
       margin-right: 84px;
     }
+
     @include desktop {
       margin-left: 5%;
     }
@@ -118,6 +119,7 @@
   }
   @include desktop {
     flex-direction: row;
+    align-items: center;
   }
 }
 
@@ -154,9 +156,14 @@
   @include tablet {
     font-size: 12px;
     line-height: 1.1;
+    &:hover {
+      color: $accent-color;
+      &:hover svg {
+        fill: $accent-color;
+      }
+    }
   }
 }
-
 .envelope-link {
   text-decoration: none;
   color: $primary-text-color;
@@ -181,31 +188,15 @@
 
   &:hover {
     color: $accent-color;
+
+    &:hover svg {
+      fill: $accent-color;
+    }
   }
 
   .phone-link {
     &:hover {
       color: $accent-color;
-    }
-  }
-
-  .envelope-link {
-    &:hover svg {
-      fill: $accent-color;
-    }
-  }
-
-  .phone-link {
-    &:hover svg {
-      fill: $accent-color;
-    }
-  }
-
-  .envelope-link {
-    &:hover.phone-link {
-      &:hover svg {
-        fill: $accent-color;
-      }
     }
   }
 }
