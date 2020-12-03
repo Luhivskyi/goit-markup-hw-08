@@ -409,25 +409,25 @@ body .modal-open {
   margin-bottom: 30px;
 }
 
-.people {
+.team .people {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  .people {
+  .team .people {
     width: 354px;
     height: 374px;
   }
 }
 
 @media (min-width: 1024px) {
-  .people {
+  .team .people {
     width: 270px;
     height: 260px;
   }
 }
 
-.name-title {
+.team .name-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -437,7 +437,7 @@ body .modal-open {
   color: #212121;
 }
 
-.name-text {
+.team .name-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -447,7 +447,7 @@ body .modal-open {
   color: #757575;
 }
 
-.media-list {
+.team .media-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -462,25 +462,37 @@ body .modal-open {
           align-items: center;
 }
 
-.media-list .social {
+.team .media-list .social {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
 }
 
-.media-list .social:not(:last-child) {
+.team .media-list .social:not(:last-child) {
   margin-right: 10px;
 }
 
-.media-list .social:hover svg {
+.team .media-list .social:hover {
   fill: #2196f3;
 }
 
-.media-list .social .media-picture {
+.team .media-list .footer-social:hover .footer-social-link {
+  background: #2196f3;
+}
+
+.team .media-list .social:hover .social-link {
+  background: #2196f3;
+}
+
+.team .media-list .media-picture {
   fill: #afb1b8;
 }
 
-.media-list .social .social-link {
+.team .media-list .media-picture:hover {
+  fill: #ffffff;
+}
+
+.team .media-list .social-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
