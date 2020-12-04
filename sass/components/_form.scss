@@ -30,6 +30,11 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+
+  @include desktop {
+    width: 448px;
+    height: 40px;
+  }
 }
 
 .form-field {
@@ -139,6 +144,11 @@
   border-radius: 4px;
   resize: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @include desktop {
+    width: 448px;
+    height: 120px;
+  }
 }
 
 .form-label {
@@ -164,6 +174,11 @@
 .form-field label.form-txt {
   display: flex;
   align-items: center;
+
+  @include desktop {
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
 
 .form-btn {
@@ -184,6 +199,11 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: $accent-color;
+
+  @include desktop {
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
 
 .name-icon {
