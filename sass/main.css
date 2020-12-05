@@ -1737,17 +1737,16 @@ body .modal-open {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.flex-element:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 @media (min-width: 768px) {
-  .flex-element:not(:last-child) {
+  .flex-element {
     width: 354px;
     height: 404px;
   }
-  .flex-element:not(:last-child) :nth-child(2n + 1) {
+  .flex-element :nth-child(2n + 1) {
     margin-right: 30px;
+  }
+  .flex-element:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
