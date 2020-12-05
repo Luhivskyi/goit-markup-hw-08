@@ -1742,7 +1742,7 @@ body .modal-open {
     width: 354px;
     height: 404px;
   }
-  .flex-element :nth-child(2n + 1) {
+  .flex-element:nth-child(2n + 1) {
     margin-right: 30px;
   }
   .flex-element:not(:last-child) {
