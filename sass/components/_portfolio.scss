@@ -12,8 +12,8 @@
 
   @include tablet {
     width: 354px;
-    height: 404px;
-    &:nth-child(n + 1) {
+    height: auto;
+    &:nth-child(2n + 1) {
       margin-right: 30px;
     }
 
