@@ -1746,6 +1746,9 @@ body .modal-open {
     width: 354px;
     height: 404px;
   }
+  .flex-element:not(:last-child) :nth-child(2n + 1) {
+    margin-right: 30px;
+  }
 }
 
 /*
