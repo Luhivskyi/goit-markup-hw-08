@@ -18,7 +18,7 @@
     }
 
     &:not(:last-child) {
-      // margin-bottom: 30px;
+      margin-bottom: 30px;
     }
   }
 
@@ -142,22 +142,28 @@
 }
 
 .filter-item {
+  &:nth-child(2n) {
+    margin-bottom: 15px;
+  }
+
   &:nth-child(3n) {
     margin-bottom: 15px;
-    @include tablet {
-      margin-bottom: 0;
-    }
   }
+
+  @include tablet {
+    margin-bottom: 0;
+  }
+
   @include desktop {
     & :nth-child(3n + 1) {
       margin-right: 30px;
     }
   }
-
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
+
 .button-p {
   padding-top: 6px;
   padding-bottom: 6px;

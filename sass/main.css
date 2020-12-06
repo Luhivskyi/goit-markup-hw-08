@@ -1772,6 +1772,9 @@ body .modal-open {
   .flex-element:nth-child(2n + 1) {
     margin-right: 30px;
   }
+  .flex-element:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1904,12 +1907,16 @@ body .modal-open {
   margin-top: 0;
 }
 
+.filter-item:nth-child(2n) {
+  margin-bottom: 15px;
+}
+
 .filter-item:nth-child(3n) {
   margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {
-  .filter-item:nth-child(3n) {
+  .filter-item {
     margin-bottom: 0;
   }
 }
