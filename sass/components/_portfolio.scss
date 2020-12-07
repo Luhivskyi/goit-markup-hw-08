@@ -152,6 +152,12 @@
 
   @include tablet {
     margin-bottom: 0;
+    &:nth-child(2n) {
+      margin-bottom: 0;
+    }
+    &:nth-child(3n) {
+      margin-bottom: 0px;
+    }
   }
 
   @include desktop {

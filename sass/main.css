@@ -1096,6 +1096,13 @@ body .modal-open {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media (min-width: 768px) {
+  .footer .footer-f input {
+    width: 450px;
+    height: 50px;
+  }
+}
+
 .footer .footer-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1918,6 +1925,12 @@ body .modal-open {
 @media (min-width: 768px) {
   .filter-item {
     margin-bottom: 0;
+  }
+  .filter-item:nth-child(2n) {
+    margin-bottom: 0;
+  }
+  .filter-item:nth-child(3n) {
+    margin-bottom: 0px;
   }
 }
 
