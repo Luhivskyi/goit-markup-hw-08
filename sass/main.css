@@ -385,6 +385,15 @@ body .modal-open {
   color: #212121;
 }
 
+.team .container-team {
+  width: 100%;
+  max-width: 450px;
+}
+
+.team img {
+  width: 100%;
+}
+
 .team .photo {
   display: -webkit-box;
   display: -ms-flexbox;

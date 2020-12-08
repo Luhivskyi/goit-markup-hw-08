@@ -18,6 +18,15 @@
     color: $title-text-color;
   }
 
+  .container-team {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  img {
+    width: 100%;
+  }
+
   .photo {
     display: flex;
     flex-direction: column;
