@@ -2014,12 +2014,9 @@ body .modal-open {
   margin-bottom: 0;
   text-decoration: none;
   list-style: none;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .link-a {
