@@ -392,7 +392,7 @@ body .modal-open {
 
 @media (min-width: 768px) {
   .team .container-team {
-    max-width: auto;
+    max-width: 100%;
   }
 }
 
@@ -451,6 +451,9 @@ body .modal-open {
   .team .team-item {
     width: 354px;
     height: 536px;
+  }
+  .team .team-item:nth-child(2n + 1) {
+    margin-right: 30px;
   }
 }
 
