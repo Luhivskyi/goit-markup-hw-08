@@ -113,6 +113,10 @@
       &:hover {
         fill: $accent-color;
       }
+      &:hover svg,
+      &:focus svg {
+        fill: $primary-white-color;
+      }
     }
 
     .footer-social {
@@ -124,6 +128,7 @@
     .social {
       &:hover .social-link {
         background: $accent-color;
+        fill: $primary-white-color;
       }
     }
 

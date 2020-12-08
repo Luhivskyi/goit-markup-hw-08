@@ -518,12 +518,18 @@ body .modal-open {
   fill: #2196f3;
 }
 
+.team .media-list .social:hover svg,
+.team .media-list .social:focus svg {
+  fill: #ffffff;
+}
+
 .team .media-list .footer-social:hover .footer-social-link {
   background: #2196f3;
 }
 
 .team .media-list .social:hover .social-link {
   background: #2196f3;
+  fill: #ffffff;
 }
 
 .team .media-list .social-link {
