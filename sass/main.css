@@ -966,6 +966,12 @@ body .modal-open {
   margin-bottom: 20px;
 }
 
+@media (min-width: 768px) {
+  .footer .footer-title {
+    margin-top: 0;
+  }
+}
+
 .footer .footer-media-list {
   margin: 0;
   padding: 0;
@@ -1476,6 +1482,7 @@ body .modal-open {
 
 .menu-container {
   display: none;
+  z-index: 100;
 }
 
 @media (min-width: 768px) {
@@ -1667,7 +1674,7 @@ body .modal-open {
 }
 
 .envelope-picture {
-  fill: #212121;
+  fill: #757575;
   margin-right: 10px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1680,7 +1687,7 @@ body .modal-open {
 }
 
 .phone-picture {
-  fill: #212121;
+  fill: #757575;
   margin-right: 10px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
