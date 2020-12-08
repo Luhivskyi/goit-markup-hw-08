@@ -21,6 +21,9 @@
   .container-team {
     width: 100%;
     max-width: 450px;
+    @include tablet {
+      max-width: auto;
+    }
   }
 
   img {
@@ -38,8 +41,11 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       align-items: flex-start;
+      &:nth-child(2n + 1) {
+        margin-right: 30px;
+      }
     }
   }
 
