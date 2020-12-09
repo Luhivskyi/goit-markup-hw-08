@@ -149,11 +149,17 @@
       width: 50%;
       margin-bottom: 65px;
     }
+
     @include desktop {
       width: 25%;
       align-items: flex-start;
+      margin-bottom: 0;
+    }
+    @media screen and(min-width:1200px) {
+      margin-bottom: 0;
     }
   }
+
   .third-col {
     @include desktop {
       width: 50%;
@@ -229,6 +235,7 @@
     color: $primary-white-color;
 
     @include desktop {
+      margin-top: 0;
       text-align: left;
     }
   }
