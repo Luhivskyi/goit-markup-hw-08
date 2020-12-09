@@ -8,6 +8,10 @@
   background-size: cover;
   background-position: center;
 
+  @include desktop {
+    height: 600px;
+  }
+
   // для мобильного
 
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -62,6 +66,11 @@
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
+
+  @include desktop {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 .hero-button {
   color: $primary-white-color;

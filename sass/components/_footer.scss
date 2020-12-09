@@ -74,6 +74,12 @@
     padding: 0;
     margin: 0;
 
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
     li {
       @include desktop {
         text-align: left;

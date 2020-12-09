@@ -37,16 +37,17 @@
 
   @include tablet {
     width: 354px;
-    &:nth-child(2n + 1) {
+    align-items: flex-start;
+  }
+  &:nth-child(2n + 1) {
+    margin-right: 30px;
+  }
+
+  @include desktop {
+    width: 270px;
+    align-items: flex-start;
+    &:not(:last-child) {
       margin-right: 30px;
-    }
-
-    @include desktop {
-      width: 270px;
-
-      &:not(:last-child) {
-        margin-right: 30px;
-      }
     }
   }
 }
@@ -64,7 +65,7 @@
   text-align: center;
 
   @include desktop {
-    text-align: left;
+    justify-content: left;
   }
 }
 

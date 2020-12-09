@@ -16,6 +16,11 @@
     &:nth-child(2n + 1) {
       margin-right: 30px;
     }
+
+    @include desktop {
+      width: 370px;
+    }
+
     &:not(:last-child) {
       margin-bottom: 30px;
     }
@@ -161,11 +166,6 @@
     }
   }
 
-  @include desktop {
-    & :nth-child(3n + 1) {
-      margin-right: 30px;
-    }
-  }
   &:not(:last-child) {
     margin-right: 8px;
   }

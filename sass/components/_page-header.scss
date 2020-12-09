@@ -9,8 +9,14 @@
   background: $primary-white-color;
   padding-left: 15px;
   padding-right: 15px;
+  border-bottom: 1px solid $secondary-grey-color;
+
+  @include tablet {
+    height: 80px;
+  }
 
   @include desktop {
+    height: 80px;
     justify-content: center;
   }
 
