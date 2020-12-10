@@ -1619,15 +1619,6 @@ body .modal-open {
   }
 }
 
-@media (min-width: 1200px) {
-  .menu-container {
-    width: 65%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-}
-
 @media (min-width: 768px) {
   .menu-container .main-nav {
     display: -webkit-box;
@@ -1639,7 +1630,7 @@ body .modal-open {
 
 @media (min-width: 1200px) {
   .menu-container .main-nav {
-    margin-left: 5%;
+    margin-right: 331px;
   }
 }
 
@@ -1905,8 +1896,6 @@ body .modal-open {
 }
 
 .container-h {
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
