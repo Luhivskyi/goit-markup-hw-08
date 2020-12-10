@@ -96,6 +96,7 @@ body .modal-open {
 }
 
 .page-header .burger-btn {
+  padding: 0;
   border: none;
   background: transparent;
 }
@@ -1362,7 +1363,8 @@ body .modal-open {
 
 @media (min-width: 1200px) {
   .form-field input {
-    width: 448px;
+    width: 100%;
+    max-width: 100%;
     height: 40px;
   }
 }
@@ -1491,7 +1493,8 @@ body .modal-open {
 
 @media (min-width: 1200px) {
   .comment {
-    width: 448px;
+    width: 100%;
+    max-width: 100%;
     height: 120px;
   }
 }
