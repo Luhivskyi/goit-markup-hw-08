@@ -1518,6 +1518,16 @@ body .modal-open {
   color: #757575;
 }
 
+@media screen and (min-width: 320px) {
+  .form-field label.form-txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .form-field label.form-txt {
   display: -webkit-box;
   display: -ms-flexbox;
