@@ -1274,6 +1274,7 @@ body .modal-open {
 @media (min-width: 1200px) {
   .modal {
     width: 528px;
+    max-width: 528px;
     height: 581px;
   }
 }
@@ -1345,6 +1346,7 @@ body .modal-open {
           flex-direction: column;
   width: 100%;
   max-width: 370px;
+  height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1353,7 +1355,8 @@ body .modal-open {
 
 @media (min-width: 768px) {
   .form-field input {
-    width: 100%;
+    width: 370px;
+    height: 40px;
   }
 }
 
@@ -1362,6 +1365,10 @@ body .modal-open {
     width: 448px;
     height: 40px;
   }
+}
+
+.form-field {
+  width: 100%;
 }
 
 .form-field:not(:last-child) {
@@ -1477,7 +1484,8 @@ body .modal-open {
 
 @media (min-width: 768px) {
   .comment {
-    width: 100%;
+    width: 448px;
+    height: 120px;
   }
 }
 
